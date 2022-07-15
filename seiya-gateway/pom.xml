@@ -60,6 +60,12 @@
             <version>1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.lijin</groupId>
+            <artifactId>seiya-common-swagger</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
