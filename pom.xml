@@ -46,6 +46,7 @@
         <oss.version>1.0.3</oss.version>
         <sms.version>2.0.2</sms.version>
         <jaxb.version>2.3.5</jaxb.version>
+        <jwt.version>0.9.1</jwt.version>
     </properties>
 
     <!-- 以下依赖 全局所有的模块都会引入  -->
@@ -174,6 +175,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jwt.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
