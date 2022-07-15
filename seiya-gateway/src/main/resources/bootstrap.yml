@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: ${NACOS_HOST:seiya-register}:${NACOS_PORT:8859}
+        server-addr: ${NACOS_HOST:seiya-register}:${NACOS_PORT:28848}
       config:
         server-addr: ${spring.cloud.nacos.discovery.server-addr}
         file-extension: yml

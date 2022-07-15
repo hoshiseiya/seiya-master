@@ -1,6 +1,6 @@
 package com.lijin.seiya.common.swagger.config;
 
-import com.lijin.demo.common.swagger.support.SwaggerProperties;
+import com.lijin.seiya.common.swagger.support.SwaggerProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingClass;

@@ -19,6 +19,6 @@ import java.lang.annotation.*;
 @Inherited
 @EnableConfigurationProperties(SwaggerProperties.class)
 @Import({ SwaggerAutoConfiguration.class, GatewaySwaggerAutoConfiguration.class })
-public @interface EnableDemoSwagger2 {
+public @interface EnableSeiyaSwagger2 {
 
 }
