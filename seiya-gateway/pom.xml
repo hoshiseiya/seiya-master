@@ -54,6 +54,11 @@
             <artifactId>caffeine</artifactId>
         </dependency>
 
+        <!--openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.lijin</groupId>
             <artifactId>seiya-common-core</artifactId>
